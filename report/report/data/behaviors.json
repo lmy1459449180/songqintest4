@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "一级模块",
+    "children" : [ {
+      "name" : "二级标签",
+      "children" : [ {
+        "name" : "标题",
+        "uid" : "cc88232e013d45d8",
+        "parentUid" : "dd1e0f044522f6c3c8b0e3d531712359",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630292839357,
+          "stop" : 1630292839358,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "1" ]
+      }, {
+        "name" : "标题",
+        "uid" : "cfe03976d69b2423",
+        "parentUid" : "dd1e0f044522f6c3c8b0e3d531712359",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630292839399,
+          "stop" : 1630292839399,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2" ]
+      }, {
+        "name" : "标题",
+        "uid" : "31095bae8950cd87",
+        "parentUid" : "dd1e0f044522f6c3c8b0e3d531712359",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630292839401,
+          "stop" : 1630292839401,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "3" ]
+      }, {
+        "name" : "标题",
+        "uid" : "4cd1f5aa219d9cfd",
+        "parentUid" : "dd1e0f044522f6c3c8b0e3d531712359",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630292839405,
+          "stop" : 1630292839405,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2" ]
+      } ],
+      "uid" : "dd1e0f044522f6c3c8b0e3d531712359"
+    } ],
+    "uid" : "cab855be7807a752f7769577f07915d5"
+  } ]
+}

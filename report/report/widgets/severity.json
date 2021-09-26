@@ -1,0 +1,41 @@
+[ {
+  "uid" : "cc88232e013d45d8",
+  "name" : "标题",
+  "time" : {
+    "start" : 1630292839357,
+    "stop" : 1630292839358,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cd1f5aa219d9cfd",
+  "name" : "标题",
+  "time" : {
+    "start" : 1630292839405,
+    "stop" : 1630292839405,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfe03976d69b2423",
+  "name" : "标题",
+  "time" : {
+    "start" : 1630292839399,
+    "stop" : 1630292839399,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31095bae8950cd87",
+  "name" : "标题",
+  "time" : {
+    "start" : 1630292839401,
+    "stop" : 1630292839401,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
