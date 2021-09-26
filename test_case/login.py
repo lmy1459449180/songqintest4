@@ -20,7 +20,7 @@ class Login:
         url = f'{Host}/account/sLogin'
         # rqby = {'username': 'dp0367', 'password': '07f39c7a8ed35cf0a867db25788f30c1'}
 
-        indatqa['password']=get_Md5(indatqa['password'])
+        indatqa['password'] = get_Md5(indatqa['password'])
         rqby = indatqa
 
         resp = requests.post(url, data=rqby)
@@ -30,11 +30,11 @@ class Login:
         # 打印text格式响应体
         # print(resp.text)
 
-        # 打印字典 格式响应体 前提个是必须是json格式的否则报错
-        return resp.json()
-
         # 获取token 值
         print('token值为：' + resp.json()['data'].get('token'))
+
+        # 打印字典 格式响应体 前提个是必须是json格式的否则报错
+        return resp.json()
 
 
 if __name__ == '__main__':
